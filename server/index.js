@@ -15,7 +15,8 @@ connectToMongoDB();
 
 // CORS setup: Allow requests from frontend origin
 const corsOptions = {
-  origin: "http://localhost:3001", // Frontend URL
+  // origin: "http://localhost:3001", // Frontend URL
+  origin: "https://jet-lifly-project-frontend.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
